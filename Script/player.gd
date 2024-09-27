@@ -12,7 +12,6 @@ func _physics_process(delta: float) -> void:
 	jump(delta)
 	flip()
 	updateAnimation()
-	
 	move_and_slide()
 
 func updateAnimation():
