@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/shine.png-162018ba88dc5d52ef46dace33063c0d.ct
 
 [params]
 
-compress/mode=0
+compress/mode=3
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
