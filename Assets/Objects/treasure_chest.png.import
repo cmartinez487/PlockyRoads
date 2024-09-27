@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/treasure_chest.png-26171cc9b807c18cc439e25594
 
 [params]
 
-compress/mode=0
+compress/mode=3
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/ladder.png-ab7e29aa424a90ac3ae75cefbd2af9c7.c
 
 [params]
 
-compress/mode=0
+compress/mode=3
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

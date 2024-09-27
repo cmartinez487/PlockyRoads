@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0yiwb4itjh3j"]
+
+[ext_resource type="Texture2D" uid="uid://bglob6mtjvivg" path="res://Assets/Enemies/slime.png" id="1_cch5t"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7knrk"]
+size = Vector2(16, 10)
+
+[node name="Player" type="CharacterBody2D"]
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_cch5t")
+hframes = 5
+vframes = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 3)
+shape = SubResource("RectangleShape2D_7knrk")

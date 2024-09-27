@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/tree_c.png-7a8fc95fd485eb85df02835b188e0a04.c
 
 [params]
 
-compress/mode=0
+compress/mode=3
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

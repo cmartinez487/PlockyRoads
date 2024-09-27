@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/bubble.png-4228af76eedcbf1d6396d54d26032365.c
 
 [params]
 
-compress/mode=0
+compress/mode=3
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

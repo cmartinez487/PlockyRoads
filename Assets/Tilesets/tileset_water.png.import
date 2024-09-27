@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/tileset_water.png-93cb379d7b3029cb18bca01b6f4
 
 [params]
 
-compress/mode=0
+compress/mode=3
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
