@@ -1,20 +1,20 @@
 [gd_scene load_steps=3 format=3 uid="uid://d0yiwb4itjh3j"]
 
-[ext_resource type="Texture2D" uid="uid://bglob6mtjvivg" path="res://Assets/Enemies/slime.png" id="1_cch5t"]
+[ext_resource type="Texture2D" uid="uid://dt11rd6u2v0u2" path="res://Assets/Player/Owlet_Monster_Jump_8.png" id="1_3p1bj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7knrk"]
-size = Vector2(16, 10)
+size = Vector2(21, 26)
 
 [node name="Player" type="CharacterBody2D"]
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_cch5t")
-hframes = 5
-vframes = 2
+texture = ExtResource("1_3p1bj")
+hframes = 8
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 3)
+position = Vector2(-2.5, 3)
 shape = SubResource("RectangleShape2D_7knrk")
+one_way_collision_margin = 0.0
